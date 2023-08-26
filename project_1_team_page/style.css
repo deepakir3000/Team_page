@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.subcontainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 150px;
+    margin-bottom: 50px;
+}
+
+.subcontainer1 h1,h4{
+    margin-bottom: 15px;
+}
+
+.carts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.cart{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px;
+    margin: 12px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+
+.subcontainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 150px;
+    margin-bottom: 50px;
+}
+
+.subcontainer2 h1{
+    margin-bottom: 70px;
+}
+
+.subcontainer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 150px;
+    margin-bottom: 50px;
+}
+
+.subcontainer3 h1{
+    margin-bottom: 70px;
+}
+
+.mentorProfiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+.profile img {
+    width: 153px;
+    height: 149px;
+    border-radius: 77px;
+}
+.btn{
+    padding: 4px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: snow;
+    cursor: pointer;
+}
